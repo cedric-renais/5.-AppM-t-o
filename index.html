@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +12,26 @@
     <title>Meteo Browser</title>
   </head>
   <body>
+    <main>
+      <div class="meteo-loader meteo-loader--activ">
+        <img
+          src="./sources/svg/loader.svg"
+          alt="Spinner"
+          class="meteo-loader__spinner"
+        />
+      </div>
+      <p class="meteo-error"></p>
+      <h2 class="meteo-city">Paris</h2>
+      <h3 class="meteo-country">France</h3>
+      <h1 class="meteo-temperature">20°</h1>
+      <div class="meteo-icon">
+        <img
+          src="./sources/svg/browser.svg"
+          alt="Info icon"
+          class="meteo-icon__img"
+        />
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
