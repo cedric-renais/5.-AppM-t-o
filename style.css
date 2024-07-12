@@ -48,19 +48,32 @@ main {
   opacity: 1;
 }
 
+.meteo-error__txt,
+.meteo-error__info {
+  color: #e54666;
+}
+.meteo-error__txt {
+  font-size: 18px;
+  font-weight: 600;
+  margin-block-end: 10px;
+}
+.meteo-error__info {
+  font-size: 16px;
+}
+
 .meteo-city {
-  font-size: clamp(25px, 5vw, 50px);
+  font-size: 50px;
   color: #272962;
 }
 
 .meteo-country {
-  font-size: clamp(12px, 2.4vw, 24px);
+  font-size: 24px;
   color: #13131e;
   margin-block-end: 45px;
 }
 
 .meteo-temperature {
-  font-size: clamp(45px, 7vw, 70px);
+  font-size: 70px;
   font-weight: 900;
   color: #5b5bd6;
 }
