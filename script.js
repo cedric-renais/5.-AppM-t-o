@@ -21,7 +21,7 @@ const errorInfo = document.querySelector('.meteo-error__info');
 async function getMeteoData() {
   try {
     const response = await fetch(
-      'http://api.airvisual.com/v2/nearest_city?key=8c38863c-e12b-4537-b545-31a03a3126e2'
+      'https://api.airvisual.com/v2/nearest_city?key=8c38863c-e12b-4537-b545-31a03a3126e2'
     );
     if (!response.ok) {
       throw new Error(`${response.status}, ${response.statusText}`);
